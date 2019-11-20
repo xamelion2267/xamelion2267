@@ -36,14 +36,16 @@
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(307, 112);
+            this.comboBox1.Location = new System.Drawing.Point(138, 181);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
@@ -80,17 +82,26 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(306, 254);
+            this.listView1.Location = new System.Drawing.Point(-29, 26);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(121, 97);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(164, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
@@ -99,6 +110,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +125,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
